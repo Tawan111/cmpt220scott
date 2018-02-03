@@ -4,7 +4,7 @@ public class Problem4_21 {
 	
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		System.out.print("Please enter your social security number in the correct format: ");
+		System.out.print("Enter your social security number: ");
 		String social = input.nextLine();
 		
 		boolean correct =

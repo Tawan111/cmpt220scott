@@ -4,7 +4,7 @@ public class Problem4_13 {
 	
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		System.out.print("Enter a letter: ");
+		System.out.print("Enter one letter: ");
 		String letter = input.nextLine().toLowerCase();
 		
 		String a = "a";

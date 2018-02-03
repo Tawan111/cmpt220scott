@@ -5,9 +5,9 @@ public class Problem3_11 {
 		public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("Enter the month as a number: ");
+		System.out.print("Enter a month: ");
 		int month = input.nextInt();
-		System.out.print("Enter the year as a number: ");
+		System.out.print("Enter the year: ");
 		int year = input.nextInt();
 		int months = month;
 		String monthString;
@@ -36,7 +36,7 @@ public class Problem3_11 {
 			break;
 			case 11: monthString = "December";
 			break;
-			default: monthString = "Not a real month of the year ";
+			default: monthString = "Invalid input ";
 			break;
 		}
 		

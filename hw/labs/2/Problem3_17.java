@@ -5,42 +5,42 @@ public class Problem3_17 {
 	
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		System.out.print("scissor (0), rock (1), paper (2): ");
+		System.out.print("Scissor (0), Rock (1), Paper (2): ");
 		int userInput = input.nextInt();
 		Random randomNum = new Random();
 		int computerChoice = randomNum.nextInt(3);
 		
 		if (userInput == 0 && computerChoice == 0) {
-			System.out.print("The computer is scissor. You are scissor. It's a tie,");
+			System.out.print("The computer chose scissor. You chose scissor. It's a tie,");
 		
 		}
 		else if (userInput == 0 && computerChoice == 1) {
-			System.out.print("The computer is rock. You are scissor. You lose.");
+			System.out.print("The computer chose rock. You chose scissor. You lose.");
 		
 		}
 		else if (userInput == 0 && computerChoice == 2) {
-			System.out.print("The computer is paper. You are scissor. You win.");
+			System.out.print("The computer chose paper. You chose scissor. You win.");
 		}
 		else if (userInput == 1 && computerChoice == 0) {
-			System.out.print("The computer is scissor. You are rock. You win.");
+			System.out.print("The computer chose scissor. You chose rock. You win.");
 		}
 		else if (userInput == 1 && computerChoice == 1) {
-			System.out.print("The computer is rock. You are rock. It's a tie.");
+			System.out.print("The computer chose rock. You chose rock. It's a tie.");
 		}
 		else if (userInput == 1 && computerChoice == 2) {
-			System.out.print("The computer is paper. You are rock. You lose.");
+			System.out.print("The computer chose paper. You chose rock. You lose.");
 		}
 		else if (userInput == 2 && computerChoice == 0) {
-			System.out.print("The computer is scissor. You are paper. You lose.");
+			System.out.print("The computer chose scissor. You chose paper. You lose.");
 		}
 		else if (userInput == 2 && computerChoice == 1) {
-			System.out.print("The computer is rock. You are paper. You win.");
+			System.out.print("The computer chose rock. You chose paper. You win.");
 		}
 		else if (userInput == 2 && computerChoice == 2) {
-			System.out.print("The computer is paper. You are paper. It's a tie.");
+			System.out.print("The computer chose paper. You chose paper. It's a tie.");
 		}
 		else {
-			System.out.print("No one won");
+			System.out.print("Invalid input");
 		}
 		}
 		
