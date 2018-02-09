@@ -10,12 +10,12 @@ public class Problem6_3 {
 		    System.out.println((isPalindrome(userInputNum)));
 		  }
 
-		  public static int reverse(int number){
+		  public static int reverse(int number) {
 		  	
 		  	int lastDigit = 0;
 		  	int reverseNum = 0;
 		  	
-		  	while(number>0){
+		  	while(number>0) {
 		  	  
 		  	  reverseNum = reverseNum*10;
 		  	  lastDigit = number%10; 
@@ -26,10 +26,10 @@ public class Problem6_3 {
 		  return reverseNum;
 		  }
 		 
-		  public static boolean isPalindrome(int number){
+		  public static boolean isPalindrome(int number) {
 		  	boolean answer;
 		  	
-		  	if((reverse(number))==number){
+		  	if((reverse(number))==number) {
 		  	  answer = true;
 		  	}
 		  

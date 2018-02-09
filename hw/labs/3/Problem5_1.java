@@ -10,7 +10,7 @@ public class Problem5_1 {
 			int userInputNum;
 			do {
 				Scanner input = new Scanner(System.in);
-				System.out.println("Enter an integer, input ends if it is 0: ");
+				System.out.println("Enter an integer, input will end if the integer is 0: ");
 				userInputNum = input.nextInt();
 				
 				if(userInputNum>0) {
