@@ -9,7 +9,7 @@ public class Problem3_5 {
 			System.out.print("Enter the number of days elapsed since today: ");
 			int daysToPass = input.nextInt();
 			int days = todaysDay;
-			String daysString;
+			String daysString; // JA: You need to initialize this variable
 			switch (days) {
 			
 				case 0: daysString = "Sunday"; break;
@@ -22,7 +22,7 @@ public class Problem3_5 {
 				
 			}
 			int nextDays = (todaysDay + daysToPass )%7;
-			String nextDaysString;
+			String nextDaysString; // You need to initialize this variable
 			switch (nextDays) {
 				
 				case 0: nextDaysString = "Sunday"; break;

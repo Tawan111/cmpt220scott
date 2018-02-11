@@ -10,7 +10,7 @@ public class Problem3_11 {
 		System.out.print("Enter the year: ");
 		int year = input.nextInt();
 		int months = month;
-		String monthString;
+		String monthString; // JA: This variable needs to be initialized
 		switch (months) {
 			case 0: monthString = "January"; break;
 			case 1: monthString = "February"; break;
