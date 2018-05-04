@@ -1,4 +1,4 @@
-
+// JA: Where is the GeoetricObject class?
 public class Triangle 
 	
 extends GeometricObject {
